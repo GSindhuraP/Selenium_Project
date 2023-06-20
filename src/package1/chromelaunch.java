@@ -9,7 +9,7 @@ public class chromelaunch {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Srikanth\\OneDrive\\Desktop\\selenium\\chromedriver\\chromedriver.exe");
 		WebDriver wd=new ChromeDriver();
 		wd.get("http://google.com");
-	
+	wd.manage().window().maximize();
 	}
 
 }
